@@ -1,0 +1,11 @@
+from tkinter import *
+window=Tk()
+btn=Button(window, text="This is Button widget", fg='blue')
+btn.place(x=100, y=100)
+lbl=Label(window, text="This is Label widget", fg='red', font=("Helvetica", 16))
+lbl.place(x=60, y=50)
+tf=Entry(window,text=" ",fg='red')
+tf.place(x=80, y=150)
+window.title('Hello Python')
+window.geometry("500x500")
+window.mainloop()

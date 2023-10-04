@@ -1,0 +1,14 @@
+num=int (input("enter"))
+print(bin(num))
+bpnum=int(num)
+rev=0
+while(bpnum > 0):
+    a = bpnum % 10
+    rev = rev * 10 + a
+    bpnum = bpnum // 10
+   
+if (bpnum==rev):
+    print("no is palindrome")
+else :
+    print("no")
+# print (rev)
